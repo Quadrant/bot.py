@@ -39,4 +39,4 @@ class Test(ch.RoomConnection):
         def onLeave(self, user):
                 self.message("bai, " + user.name + "! T.T")
 
-Test.easy_start(room = "naruto-tv", name = "QuadrantsBitch", password="popeyjack")
+Test.easy_start(room = "naruto-tv", name = "QuadrantsBitch")
